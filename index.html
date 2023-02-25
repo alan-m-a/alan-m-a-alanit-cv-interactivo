@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Mi Porfolio alanit-cv-online">
+    <meta name="keywords"
+        content="Mi Porfolio - Mi Porfolio alanit cv online - alanit- alanit cv online- Desarrollo de curriculum interactivo online con html, css y js - Desarrollador web - Desarrollo web - Web developer - Html - Css - Js">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="My_Proyect_Cv">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.ibb.co/vdGHG7k/html5-css3-js-html-css-javascript.png">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="100">
+    <meta property="og:url" content="https://alan-m-a.github.io/alanit-cv-interactivo/">
+    <meta property="og:description" content="CV interactivo creado con html css js">
+    <meta property="og:author" content="alanit">
+    <meta property="og:locale" content="en_AR">
+
+    <!-- Añadiendo bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!--Link de hoja de estilo css-->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Link de fuente Rowdies de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <!-- Link de animacion aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Kit iconos externos -->
+    <script src="https://kit.fontawesome.com/22c41e242f.js" crossorigin="anonymous"></script>
+
+    <title>My_Proyect_Cv</title>
+</head>
+
+<body>
+    <!-- Encabezado / Nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top config-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">alanit©</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-link active underline" aria-current="page" href="#">Home</a>
+                        <a class="nav-link underline" href="#experiencia-habilidades">Experiencia</a>
+                        <a class="nav-link underline" href="#experiencia-habilidades">Habilidades</a>
+                        <a class="nav-link underline" href="#sobre-mi">Sobre Mi</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del Encabezado -->
+    <!-- Seccion principal -->
+    <main class="main-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="title">Hola, Mi nombre es Alan. <br> Soy un diseñador web <br> con base en Buenos
+                        Aires.
+                    </h1>
+                    <div class="container-perfil-personal">
+                        <p class="perfil-personal-p">
+                            Desarrollador Web - JavaScript
+                            Estudiante de Desarrollo Full Stack
+                            Apasionado por la informática con
+                            ganas de emprender nuevos desafíos.
+                            Me encuentro en búsqueda de mi
+                            primer trabajo como Developer para
+                            poder aprender, crecer en mi carrera
+                            y desarrollar mis habilidades.
+                        </p>
+                    </div>
+                    <div class="d-flex container-button">
+                        <a href="https://drive.google.com/file/d/1NhpoOUtMhbhEuk7vAo39sdl99i48qbvJ/view?usp=sharing"
+                            target="_blank"><button type="button" id="button-cv" class="btn btn-light button">Descargar
+                                CV</button></a>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal-container">
+                        <div class="mi-modal modal-close">
+                            <p class="close">x</p>
+                            <img src="https://i.ibb.co/QryKwfB/confirmar.png" alt="Imagen tilde de confirmacion">
+                            <div class="modal-texto">
+                                <h2>Descarga Exitosa</h2>
+                                <button type="button" class="button-continuar btn btn-dark">Continuar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Modal -->
+                <div class="col-sm-6">
+                    <img src="https://i.ibb.co/9qg1Cj4/dev.png" class="img-inicio" alt="imagen de programador animado">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Fin del Seccion principal-->
+    <!-- Seccion Cards-->
+    <section id="experiencia-habilidades" class="container container-card d-flex">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="container-experiencia" data-aos="zoom-in" data-aos-duration="1500">
+                    <h3>Experiencia</h3>
+                    <p>Participación en el Sistema de pasantías de la Dirección General de Cultura y
+                        Educación de la provincia de Buenos aires desempeñando en C.A.Di.V.A (Centro
+                        de Asistencia al Discapacitado Visual Adulto) la tarea como
+                        Instructor de la aplicación "LEE TODO" y su instalación.</p>
+                    <p>
+                        Actualmente trabajo en Uservice, un
+                        emprendimiento propio fundado en
+                        2015 el cual se desarrolla en el área
+                        Telecomunicaciones brindado soporte
+                        técnico a dispositivos móviles
+                        especializado en Software.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="container-habilidades" data-aos="zoom-in" data-aos-duration="1500">
+                    <h3>Habilidades</h3>
+                    <div class="d-flex flex-row">
+                        <ul class="softskills col-5">
+                            <p>#SOFTSKILLS</p>
+                            <li>Autodidacta</li>
+                            <li>Actitud Positiva</li>
+                            <li>Buena Comunicación</li>
+                            <li>Capacidad de adaptación</li>
+                            <li>Resolucion de Conflictos</li>
+                        </ul>
+                        <div class="d-flex justify-content-center col-2" style="height: 200px;">
+                            <div class="vr"></div>
+                        </div>
+                        <ul class="hardskills col-5">
+                            <p>#HARDSKILLS</p>
+                            <li>HTML - CSS </li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>GitHub</li>
+                            <li>Nivel Ingles - A1</li>
+                        </ul>
+
+                    </div>
+                    <div>
+                        <img class="html-image" src="https://i.ibb.co/rFM364G/logo-html.png"
+                            alt="icono de html con animacion de salto">
+                        <img class="css-image" src="https://i.ibb.co/r3pTNZt/logo-css-3-256.png"
+                            alt="icono de css con animacion de salto">
+                        <img class="js-image" src="https://i.ibb.co/Z8bv8rt/logo-js.png"
+                            alt="icono de javaScript con animacion de salto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="sobre-mi" class="container-sobre-mi container" data-aos="zoom-in" data-aos-duration="1500">
+                    <h3>Sobre Mi</h3>
+                    <p>Mi interes sobre la tecnologia comenzo desde pequeño y sigue en constante desarrollo. Me llama
+                        mucho
+                        la atencion el mundo de la programacion y la seguridad en informatica, en la actualidad un
+                        trabajador independiente.
+                    </p>
+                    <p>Apasionado por el deporte, jugador Amateur de Padel. Persona amante de los animales y de los
+                        viajes.
+                    </p>
+                    <div class="d-flex justify-content-end">
+                        <img src="https://i.ibb.co/Tr83n7n/alanit.jpg" alt="foto sobre el desarrolador"
+                            class="img-my-pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la seccion de cards -->
+    <!-- Footer -->
+    <footer class="text-center text-white footer">
+        <div class="container-fluid  p-4">
+            <!-- Redes Sociales-->
+            <section class="mb-4 d-flex justify-content-center">
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/alanmalegre/"
+                    target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/alan-m-a" target="_blank"
+                    role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Fin de redes sociales -->
+            <!-- Form -->
+            <section>
+                <form id="form" action="" name="miForm">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Keep in touch</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="Email" class="form-control" placeholder="Email Address"
+                                    required />
+                                <label class="form-label" for="email"></label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Send
+                            </button>
+
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Fin de Form -->
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3 copy">
+            © 2023
+            <a class="mi-site text-white" href="#">alanit</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Fin del Footer -->
+
+    <!--animacion aos js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+        </script>
+
+    <!--Js-->
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
